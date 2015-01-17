@@ -1,0 +1,13 @@
+Project Name:Online Magazine
+
+Project Members:
+	1.Kerolos William
+	2.Fatma Hammam
+	3.Mona Ahmed
+
+Track Name:Open Source
+
+Project Description:
+
+	The idea is to display ITI Magazine as an online magazine.
+	Users can create accounts then read online the magazine,write topics and finally contact us for feedback.

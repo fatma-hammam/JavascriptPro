@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Registration Page</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="popup.js"></script>
+		</head>
+	<body id="body" style="overflow:hidden;">
+		<div id="abc">
+			<div id="popupContact">
+				<form action="#" id="form" method="post" name="form">
+					<img id="close" src="index.png" onclick ="div_hide()">
+					<h2>Register here</h2>
+					<hr>
+					<input id="name" name="name" placeholder="First Name" type="text">
+					<input id="name" name="name" placeholder="Last Name" type="text">
+					<input id="email" name="pw" placeholder="Password" type="text">
+					<input id="email" name="rpw" placeholder="Confirm Password" type="text">
+					<input id="email" name="email" placeholder="E-mail" type="text">
+					<input id="email" name="email" placeholder="Confirm E-mail" type="text">
+					<textarea id="msg" name="message" placeholder="Message"></textarea>
+					<a href="javascript:check_empty()" id="submit">Send</a>
+				</form>
+			</div>
+		</div>
+		<h1>Click Button To Popup Form Using Javascript</h1>
+		<button id="popup" onclick="div_show()">Popup</button>
+	</body>
+</html>

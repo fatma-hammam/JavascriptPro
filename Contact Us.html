@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Contact Page</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="popup.js"></script>
+		</head>
+
+	<body id="body" style="overflow:hidden;">
+		<div id="abc">
+			<div id="popupContact">
+				<form action="#" id="form" method="post" name="form">
+					<img id="close" src="index.png" onclick ="div_hide()">
+					<h2>Contact Us</h2>
+					<hr>
+					<input id="name" name="name" placeholder="Name" type="text">
+					<input id="email" name="email" placeholder="E-mail" type="text">
+					<textarea id="msg" name="message" placeholder="Message"></textarea>
+					<a href="javascript:check_empty()" id="submit">Send</a>
+				</form>
+			</div>
+			
+		</div>
+		
+		<h1>Click Button To Popup Form Using Javascript</h1>
+		<button id="popup" onclick="div_show()">Popup</button>
+	</body>
+</html>
